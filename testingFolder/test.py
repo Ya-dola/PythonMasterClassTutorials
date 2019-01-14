@@ -26,3 +26,13 @@ count = 0
 while count < 3:
     print("Count Value is: " + str(count))
     count += 1
+
+# While Loop with break
+print("Running While Loop")
+while True:
+    user_input = input("Do you want to keep running this shit?: ")
+    if user_input == "nah":
+        break
+    else:
+        print("Sad Life, Maybe Next Time :P")
+print("You saved your life!")
