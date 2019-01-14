@@ -62,3 +62,12 @@ list1.remove("App")
 
 print("List - list1 (After Changes): ")
 print(list1)
+
+# For Loops
+print("List Content: ")
+for i in list1:
+    print(i)
+
+print("For Loop with range defined: ")
+for i in range(2, 5):
+    print(i)
