@@ -6,3 +6,9 @@ print("You are: " + test)
 numTest = (3+4)
 if (numTest == 7):
     print("Correct Answer: " + str(numTest))
+
+# If with Else
+if numTest == 4:
+    print("In if statement")
+else:
+    print("In else statement")
