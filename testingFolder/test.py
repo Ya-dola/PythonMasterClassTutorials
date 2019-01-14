@@ -36,3 +36,29 @@ while True:
     else:
         print("Sad Life, Maybe Next Time :P")
 print("You saved your life!")
+
+# List implementation
+list1 = [6, 9, 2, 1, 69, 21, "ELLOOO", "NO"]
+print("List - list1:")
+print(list1)
+
+if 69 in list1:
+    print("Detected xD")
+
+print("2nd Element in List: " + str(list1[1]))
+print("Element Num of '21': " + str(list1.index(21)))
+
+# Adding element to end of the list
+list1.append("App")
+
+# Adding element to list according to index specified
+list1.insert(7, "YEA")
+
+print("List - list1 (Mid Changes): ")
+print(list1)
+
+# Removing element in list
+list1.remove("App")
+
+print("List - list1 (After Changes): ")
+print(list1)
