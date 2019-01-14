@@ -71,3 +71,8 @@ for i in list1:
 print("For Loop with range defined: ")
 for i in range(2, 5):
     print(i)
+
+
+# Creating list from loop
+list2 = [i for i in range(6, 9)]
+print("List 2 : " + str(list2))
