@@ -12,3 +12,11 @@ if numTest == 4:
     print("In if statement")
 else:
     print("In else statement")
+
+# If with Elif and else
+if numTest == 4:
+    print("In if statement")
+elif numTest == 7:
+    print("In else if statement")
+else:
+    print("In else statement")
