@@ -19,3 +19,14 @@ print(testMappedSet)
 testFilteredSet = set(filter(lambda x: x % 2 == 0, testSet))
 
 print(testFilteredSet)
+
+# Using Generator Functions (Good way to iterate through function without taking up memory)
+
+
+def genFunc():
+    for i in range(4):
+        yield i
+
+
+for i in genFunc():
+    print(i)
