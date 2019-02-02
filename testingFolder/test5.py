@@ -30,3 +30,42 @@ def genFunc():
 
 for i in genFunc():
     print(i)
+
+# Using Decorators (Wrapper Functions to provide extensibility)
+# 1st way of doing it
+
+
+def decorFunc(testfunc):
+    def wrapperFunc():
+        print("~~~~~~~~~~~~~~~~~~")
+        testfunc()
+        print("------------------")
+    return wrapperFunc
+
+
+def testfunc1():
+    print("ELLOOOOOOOOOOOO")
+
+
+def testfunc2():
+    print("NOOOOOOOOOOOOOO")
+
+
+decorated = decorFunc(testfunc1)
+
+decorated()
+
+
+decorated = decorFunc(testfunc2)
+
+decorated()
+
+
+# 2nd way of doing it
+
+@decorFunc
+def testfunc3():
+    print("NICEEEEEEEEEEEE")
+
+
+testfunc3()
