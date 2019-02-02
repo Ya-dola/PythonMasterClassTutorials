@@ -29,3 +29,15 @@ print(set(testSetList))
 # Tuples - Immutable Objects (Can't be changed once created)
 testTuple = (6, 9, "Ellooooooo", 2, 1, "Nooo", 69, 21)
 print(testTuple)
+
+# Dictionaries - Used to map key and values together (Sth SImilar to Hash map)
+testDictionary = {0: "1st Value", 1: "2nd Value", "nums": 6921}
+print(testDictionary["nums"])
+
+# Add to dictionary
+testDictionary[2] = "4th Value"
+
+# Replacing Values for a key in dictionary
+testDictionary["nums"] = 2169
+
+print(testDictionary)
