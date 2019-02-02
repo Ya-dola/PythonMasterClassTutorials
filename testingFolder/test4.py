@@ -35,9 +35,12 @@ testDictionary = {0: "1st Value", 1: "2nd Value", "nums": 6921}
 print(testDictionary["nums"])
 
 # Add to dictionary
-testDictionary[2] = "4th Value"
+testDictionary["money"] = 10
 
 # Replacing Values for a key in dictionary
 testDictionary["nums"] = 2169
+
+# Modify Values in Dictionary
+testDictionary["money"] += 250
 
 print(testDictionary)
