@@ -69,3 +69,13 @@ def testfunc3():
 
 
 testfunc3()
+
+# Using Recursion in Python
+
+def factorialFunc(x):
+    if x == 1:
+        return x
+    else:
+        return x * factorialFunc(x-1)
+
+print(factorialFunc(5))
