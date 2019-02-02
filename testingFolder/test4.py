@@ -25,3 +25,7 @@ print(testStr[::-1])
 testSetList = [1, 1, 1, 1, 2, 2, 2, 5, 5, 5, 3, 8, 2,
                1, 7, 6, 4, 3, 5, 6, 7, 3, 2, 3, 5, 6, 2, 3, 9]
 print(set(testSetList))
+
+# Tuples - Immutable Objects (Can't be changed once created)
+testTuple = (6, 9, "Ellooooooo", 2, 1, "Nooo", 69, 21)
+print(testTuple)
